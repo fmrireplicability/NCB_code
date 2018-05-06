@@ -1,0 +1,6 @@
+analysis1a_rep_sim_FLIRT: carries out "Voxel-level replicability (intensity)" for real data. Presumes group-level pseudoreplicate maps.
+analysis3d_matched_prop_stability_calc_alltasks_directed: carries out "Voxel-level replicability (thresholded)" for real data. idem.
+analysis4d_cluster_fixed_stability_calc_alltasks_directed: unused variant.
+make_unsmoothed_maps: creates maps of white noise for use in null analyses.
+gen_null_maps: creates smoothed null maps.
+draw_samples: servant program used in gen_null_maps. Presumes group-level pseudoreplicate maps.
